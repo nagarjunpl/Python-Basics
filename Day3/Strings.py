@@ -25,3 +25,14 @@ last = "pl"
 
 full = f"{first} {last}"
 print(full)
+
+# Multi-line strings
+
+message = """ Hello nagarjun
+
+              This is a multi-line string
+
+              Thank you
+          """
+print(message)
+
