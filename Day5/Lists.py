@@ -48,3 +48,5 @@ print(list1[5][1]) # tuple
 print(list1[6]) # set
 print(list1[7]) # dictionary
 
+s1.extend(s2) # combine two lists
+print(s1)
