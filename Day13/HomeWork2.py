@@ -21,7 +21,6 @@ print("Dishes after removal:", dishes)
 print(dishes.keys())  # Print all dish names
 print(dishes.values())  # Print all dish prices
 
-
 # Nested dictionary example
 
 friends = {
@@ -38,7 +37,7 @@ friends = {
         "city": "Bengaluru"
     }
 }
-print("Friends dictionary:", friends)
+print("Friends dictionary:", friends) #Accessing a friends dictionary
 
 print("Arjun's details:", friends["arjun"])  # Accessing nested dictionary
 
