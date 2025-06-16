@@ -45,4 +45,29 @@ def factorial(n):
     else:
         return n * factorial(n - 1)
     
-print(factorial(5))  # calling the recursive function to calculate factorial of 10
+print(factorial(5))  # calling the recursive function to calculate factorial of 5
+
+# Nested Functions
+def outer_function():
+    def inner_function():
+        print("This is the inner function")
+    inner_function()  # calling the inner function
+
+outer_function()  # calling the outer function which in turn calls the inner function
+
+# Nested Functions with Parameters
+def addition(x, y):
+    def inner_addition():
+        print(x + y)
+    def inner_subtraction():
+        print(x - y)
+    def inner_multiplication():
+        print(x * y)
+    def inner_division():
+        print(x / y)
+    inner_addition()  # calling the inner function to perform addition
+    inner_subtraction() # calling the inner function to perform subtraction
+    inner_multiplication()  # calling the inner function to perform multiplication
+    inner_division()  # calling the inner function to perform division
+
+addition(10, 5) # calling the function to perform addition
