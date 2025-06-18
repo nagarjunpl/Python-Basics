@@ -16,7 +16,7 @@ countdown = 10
 print("Countdown starts now!")
 while countdown > 0:
     print(countdown)
-    time.sleep(0)  # Wait for 1 second
+    time.sleep(1)  # Wait for 1 second
     countdown -= 1
 
 
