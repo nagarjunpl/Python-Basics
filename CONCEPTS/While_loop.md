@@ -41,8 +41,8 @@ while True:
 ```
 ---
 
-Using `break`
-
+## Example 3: Using `break`
+```python
 num = 1
 
 while num <= 10:
@@ -101,3 +101,7 @@ Loop finished
 
 ---
 
+## Key Points
+- Use while loop when **number of iterations is not fixed**.  
+- Always make sure the loop has a **stopping condition** to avoid infinite loops.  
+- `break`, `continue`, and `else` can be used inside while loops.  
