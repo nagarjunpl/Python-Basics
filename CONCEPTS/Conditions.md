@@ -57,7 +57,7 @@ else:
 
 ---
 
-## 🔗 Combining Conditions
+## 🔗 Combining Conditions 
 
 You can also combine conditions using:
 
